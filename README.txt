@@ -1,17 +1,31 @@
-1 - Instalar las siguientes dependencias en el terminal
+1 - Creamos una aplicacion en https://discord.com/developers/applications/
 
-	1.1-npm init--yes 
+2 - Vamos a la sección "Bot" activamos todos los switches en "Privileged Gateway intents" y copiamos el token
 
-	1.2-npm i discord.js
+3 - Vamos a la sección OAuth2/URL Generator 
 
-	1.3-npm i axios
+	3.1 - En el menú "scope" activamos las opciones: bot y applications.commands.
 
-	1.4-npm i dotenv
+	3.2 - En el menú "bot permissions" activamos la opción: Administrator
+	
+	3.3 - Con el link de el final de la página añadimos el bot a nuestro server de discord de preferencia
 
-2 - Ingresar el token de su bot de discord en el archivo .env
+4 - Abrimos en una Visual Studio Code los archivos del repositorio
 
-3 - En el archivo package.json reemplazar el texto de la linea 7 a:  "start": "nodemon src/app.js"
+5 - Instalamos las siguientes dependencias en el terminal
 
-4 - En el terminal ingresar: npm run start
+	5.1 - npm init--yes 
+
+	5.2 - npm i discord.js
+
+	5.3 - npm i axios
+
+	5.4 - npm i dotenv
+
+6 - Ingresar el token de su bot de discord anteriormente copiado en el archivo .env
+
+7 - En el package.json reemplazar el texto de la linea 7 a:  "start": "nodemon src/app.js"
+
+8 - En el terminal ingresar: npm run start
 
 Y ya estaria listo su bot

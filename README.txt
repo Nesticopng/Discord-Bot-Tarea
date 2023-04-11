@@ -10,7 +10,7 @@
 	
 	3.3 - Con el link de el final de la página añadimos el bot a nuestro server de discord de preferencia
 
-4 - Abrimos en una Visual Studio Code los archivos del repositorio
+4 - Abrimos en Visual Studio Code los archivos del repositorio
 
 5 - Instalamos las siguientes dependencias en el terminal
 
